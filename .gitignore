@@ -1,16 +1,26 @@
 # This .gitignore is for the GitHub repo
 # It ignores all extracted files from the dataset
 
-# Ignore everything except loader files
-*
+# Ignore extracted server files
+app/
+scripts/
+migrations/
+hello_world/
+minimal-space/
+*.pyc
+__pycache__/
+*.db
+*.sqlite
+*.log
+.env
+.venv/
+venv/
+node_modules/
 
-# But keep these loader files
+# Keep loader files visible
 !github_loader.py
-!github_startup.sh
-!github_requirements.txt
-!github_README.md
-!github_.gitignore
-!.gitignore
-
-# Keep git folder
-!.git/
+!startup.sh
+!requirements.txt
+!README.md
+!index.html
+!LICENSE

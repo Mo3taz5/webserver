@@ -1,0 +1,3 @@
+# Minimal requirements for GitHub loader
+# The full requirements.txt will be downloaded from the dataset
+huggingface_hub>=0.20.0
